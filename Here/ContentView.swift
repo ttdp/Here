@@ -9,7 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        NavigationView {
+            Text("🦁")
+                .font(Font.largeTitle)
+                .navigationTitle("Here")
+        }
+        .onAppear {
+            JustHere.go()
+        }
     }
 }
 

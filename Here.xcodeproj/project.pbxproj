@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC947F4D24D2483200D284DA /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC947F4C24D2483200D284DA /* Just.swift */; };
 		CAD0F00424D1A68100F0AE99 /* HereApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0F00324D1A68100F0AE99 /* HereApp.swift */; };
 		CAD0F00624D1A68100F0AE99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0F00524D1A68100F0AE99 /* ContentView.swift */; };
 		CAD0F00824D1A68200F0AE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD0F00724D1A68200F0AE99 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC947F4C24D2483200D284DA /* Just.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
 		CAD0F00024D1A68100F0AE99 /* Here.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Here.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD0F00324D1A68100F0AE99 /* HereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereApp.swift; sourceTree = "<group>"; };
 		CAD0F00524D1A68100F0AE99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				CAD0F00324D1A68100F0AE99 /* HereApp.swift */,
 				CAD0F00524D1A68100F0AE99 /* ContentView.swift */,
+				AC947F4C24D2483200D284DA /* Just.swift */,
 				CAD0F00724D1A68200F0AE99 /* Assets.xcassets */,
 				CAD0F00C24D1A68200F0AE99 /* Info.plist */,
 				CAD0F00924D1A68200F0AE99 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC947F4D24D2483200D284DA /* Just.swift in Sources */,
 				CAD0F00624D1A68100F0AE99 /* ContentView.swift in Sources */,
 				CAD0F00424D1A68100F0AE99 /* HereApp.swift in Sources */,
 			);
@@ -507,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JJ29QPJ4M;
 				INFOPLIST_FILE = HereUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -527,6 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JJ29QPJ4M;
 				INFOPLIST_FILE = HereUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
